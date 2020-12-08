@@ -73,7 +73,6 @@ class _MyAppState extends State<MyApp> {
                       ),
                       Container(
                         child: Column(
-                          crossAxisAlignment: CrossAxisAlignment.start,
                           children: [
                             Image(image:AssetImage("img/wave.png")),
                             Text("-3:42",style:TextStyle(color: Colors.red))
